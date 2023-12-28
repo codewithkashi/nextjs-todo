@@ -1,0 +1,19 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: purple;
+  padding: 1rem 3rem;
+}
+
+.navBar a {
+  color: purple;
+  text-decoration: none;
+  padding: 0 1.5rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navBar a:hover {
+  color: rgb(93, 26, 93);
+}

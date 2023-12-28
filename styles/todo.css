@@ -1,0 +1,32 @@
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.task-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 20px;
+}
